@@ -17,13 +17,13 @@ function crazy() {
   }
 }
 
-function sayMyName() {
+function sayMy() {
   // fix the code in here:
   var name = "Cricky";
 
-  sayMy();
+  sayMyName();
 
-  function sayMy() {
+  function sayMyName() {
     console.log(name);
     var name = "Kristin";
   }
